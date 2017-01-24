@@ -4,12 +4,168 @@
   <groupId>${groupId}</groupId>
   <artifactId>${artifactId}</artifactId>
   <version>${version}</version>
+
+  <scm>
+    <url>https://github.com/saas-forge/forge-quickstart-archetype.git</url>
+  </scm>
+
+  <properties>
+    <java.version>1.8</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <fabric8.maven.plugin.version>3.1.92</fabric8.maven.plugin.version>
+    <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
+    <maven-eclipse-plugin.version>2.10</maven-eclipse-plugin.version>
+    <maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
+    <groovy-eclipse-batch.version>2.4.3-01</groovy-eclipse-batch.version>
+    <groovy-eclipse-compiler.version>2.9.2-01</groovy-eclipse-compiler.version>
+    <log4j.version>2.7</log4j.version>
+    <junit.version>4.12</junit.version>
+    <powermock.version>1.6.6</powermock.version>
+    <arquillian-junit.container.version>1.1.12.Final</arquillian-junit.container.version>
+    <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
+    <spock-core.version>1.1-groovy-2.4-rc-3</spock-core.version>
+    <fabric8-arquillian.version>2.2.192</fabric8-arquillian.version>
+    <fabric8.version>2.2.176</fabric8.version>
+    <fabric8.readinessProbe.httpGet.port>8080</fabric8.readinessProbe.httpGet.port>
+    <fabric8.readinessProbe.httpGet.path>/</fabric8.readinessProbe.httpGet.path>
+    <fabric8.readinessProbe.timeoutSeconds>30</fabric8.readinessProbe.timeoutSeconds>
+    <fabric8.readinessProbe.initialDelaySeconds>5</fabric8.readinessProbe.initialDelaySeconds>
+    <fabric8.readinessProbe.httpGet.path>/</fabric8.readinessProbe.httpGet.path>
+  </properties>
+
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
-    </dependency>
+
+  <!-- TESTS -->
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>${junit.version}</version>
+    <scope>test</scope>
+  </dependency>
+  <dependency>
+    <groupId>org.powermock</groupId>
+    <artifactId>powermock-core</artifactId>
+    <version>${powermock.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.powermock</groupId>
+    <artifactId>powermock-api-mockito</artifactId>
+    <version>${powermock.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.powermock</groupId>
+    <artifactId>powermock-module-junit4</artifactId>
+    <version>${powermock.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.jboss.arquillian.junit</groupId>
+    <artifactId>arquillian-junit-container</artifactId>
+    <version>${arquillian-junit.container.version}</version>
+    <scope>test</scope>
+  </dependency>
+  <dependency>
+    <groupId>io.fabric8</groupId>
+    <artifactId>fabric8-arquillian</artifactId>
+    <version>${fabric8-arquillian.version}</version>
+    <scope>test</scope>
+  </dependency>
+  <dependency>
+    <groupId>org.spockframework</groupId>
+    <artifactId>spock-core</artifactId>
+    <version>${spock-core.version}</version>
+  </dependency>
+
+
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>${log4j.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>${log4j.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j-impl</artifactId>
+    <version>${log4j.version}</version>
+  </dependency>
   </dependencies>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>${maven-javadoc-plugin.version}</version>
+        <configuration>
+          <detectLinks>true</detectLinks>
+          <detectJavaApiLink>true</detectJavaApiLink>
+          <linksource>true</linksource>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.fabric8</groupId>
+        <artifactId>fabric8-maven-plugin</artifactId>
+        <version>${fabric8.maven.plugin.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>resource</goal>
+              <goal>build</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <!-- GROOVY -->
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven-compiler-plugin.version}</version>
+        <configuration>
+        <source>${java.version}</source>
+        <target>${java.version}</target>
+        <compilerId>groovy-eclipse-compiler</compilerId>
+        </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-eclipse-compiler</artifactId>
+            <version>${groovy-eclipse-compiler.version}</version>
+            <exclusions>
+              <exclusion>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-eclipse-batch</artifactId>
+              </exclusion>
+            </exclusions>
+          </dependency>
+          <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-eclipse-batch</artifactId>
+            <version>${groovy-eclipse-batch.version}</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-eclipse-plugin</artifactId>
+        <version>${maven-eclipse-plugin.version}</version>
+        <configuration>
+          <additionalProjectnatures>
+            <projectnature>org.eclipse.jdt.groovy.core.groovyNature</projectnature>
+          </additionalProjectnatures>
+          <classpathContainers>
+            <classpathContainer>org.eclipse.jdt.launching.JRE_CONTAINER</classpathContainer>
+            <classpathContainer>GROOVY_DSL_SUPPORT</classpathContainer>
+          </classpathContainers>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
 </project>
