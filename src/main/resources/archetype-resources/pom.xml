@@ -98,7 +98,7 @@
     <version>${spock-core.version}</version>
   </dependency>
 
-
+  <!-- Logging -->
   <dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-api</artifactId>
@@ -116,6 +116,7 @@
   </dependency>
   </dependencies>
 
+  <!-- Javadoc support -->
   <reporting>
     <plugins>
       <plugin>
@@ -132,6 +133,8 @@
 
   <build>
     <plugins>
+
+      <!-- Fabric8 -->
       <plugin>
         <groupId>io.fabric8</groupId>
         <artifactId>fabric8-maven-plugin</artifactId>
