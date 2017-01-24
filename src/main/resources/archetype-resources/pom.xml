@@ -10,27 +10,50 @@
   </scm>
 
   <properties>
+
+    <!-- the jdk to use -->
     <java.version>1.8</java.version>
+
+    <!-- project settings -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <fabric8.maven.plugin.version>3.1.92</fabric8.maven.plugin.version>
-    <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
-    <maven-eclipse-plugin.version>2.10</maven-eclipse-plugin.version>
-    <maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
-    <groovy-eclipse-batch.version>2.4.3-01</groovy-eclipse-batch.version>
-    <groovy-eclipse-compiler.version>2.9.2-01</groovy-eclipse-compiler.version>
-    <log4j.version>2.7</log4j.version>
-    <junit.version>4.12</junit.version>
-    <powermock.version>1.6.6</powermock.version>
+
+    <!-- Alphabetized dependencies and plugin versions -->
+
+    <!-- A's -->
     <arquillian-junit.container.version>1.1.12.Final</arquillian-junit.container.version>
-    <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
-    <spock-core.version>1.1-groovy-2.4-rc-3</spock-core.version>
+
+    <!-- F's -->
     <fabric8-arquillian.version>2.2.192</fabric8-arquillian.version>
-    <fabric8.version>2.2.176</fabric8.version>
+    <fabric8.maven.plugin.version>3.1.92</fabric8.maven.plugin.version>
     <fabric8.readinessProbe.httpGet.port>8080</fabric8.readinessProbe.httpGet.port>
     <fabric8.readinessProbe.httpGet.path>/</fabric8.readinessProbe.httpGet.path>
     <fabric8.readinessProbe.timeoutSeconds>30</fabric8.readinessProbe.timeoutSeconds>
     <fabric8.readinessProbe.initialDelaySeconds>5</fabric8.readinessProbe.initialDelaySeconds>
     <fabric8.readinessProbe.httpGet.path>/</fabric8.readinessProbe.httpGet.path>
+    <fabric8.version>2.2.176</fabric8.version>
+
+    <!-- G's -->
+    <groovy-eclipse-batch.version>2.4.3-01</groovy-eclipse-batch.version>
+    <groovy-eclipse-compiler.version>2.9.2-01</groovy-eclipse-compiler.version>
+
+    <!-- J's -->
+    <junit.version>4.12</junit.version>
+
+    <!-- L's -->
+    <log4j.version>2.7</log4j.version>
+
+    <!-- M's -->
+    <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
+    <maven-eclipse-plugin.version>2.10</maven-eclipse-plugin.version>
+    <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
+    <maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
+
+    <!-- P's -->
+    <powermock.version>1.6.6</powermock.version>
+
+    <!-- S's -->
+    <spock-core.version>1.1-groovy-2.4-rc-3</spock-core.version>
+
   </properties>
 
   <dependencies>
