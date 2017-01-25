@@ -3,8 +3,8 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.saasforge</groupId>
-    <artifactId>forge-quickstart</artifactId>
+    <artifactId>forge-camel-only-quickstart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Archetype - forge-quickstart</name>
+    <name>Archetype - forge-camel-only-quickstart</name>
 
 </project>
