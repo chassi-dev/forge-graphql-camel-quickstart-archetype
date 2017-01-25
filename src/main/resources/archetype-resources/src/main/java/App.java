@@ -1,4 +1,4 @@
-package com.saasforge;
+package ${package};
 
 import org.apache.camel.main.Main;
 
@@ -7,7 +7,7 @@ import org.apache.camel.main.Main;
  *
  */
 public class App{
-    public static void main(String... args){
+    public static void main(String... args) throws Exception {
 
         System.out.println("************************************");
         System.out.println("* Press ctrl+c to stop the example *");
@@ -15,11 +15,7 @@ public class App{
 
         Main main = new Main();
 
-        ConsumerRoute consumerRoute = new ConsumerRoute();
-        ProducerRoute producerRoute = new ProducerRoute();
-
-        main.addRouteBuilder(consumerRoute);
-        main.addRouteBuilder(producerRoute);
+        main.addRouteBuilder(new ExampleRouteBuilder(false));
 
         main.run();
 
