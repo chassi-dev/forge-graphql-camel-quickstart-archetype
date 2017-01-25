@@ -1,4 +1,4 @@
-package $com.saasfroge;
+package com.saasforge;
 
 /**
  * Hello world!

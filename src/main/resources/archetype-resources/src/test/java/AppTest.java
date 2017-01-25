@@ -1,4 +1,4 @@
-package $com.saasfroge;
+package com.saasforge;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
