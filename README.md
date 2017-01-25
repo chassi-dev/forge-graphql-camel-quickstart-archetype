@@ -1,4 +1,4 @@
-# Forge Camel Only Quickstart Archetype
+# Forge Camel-Only Quickstart Archetype
 Used to rapidly create a maven based project that solely relies on Apache Camel. This archetype is opinionated such that it behaves solely as a producer and a consumer. 
 
 ## What it comes with
