@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="667cbeec-671a-4fdf-adac-58b8b1ed04af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ConsumerRoute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ProducerRoute.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,12 +32,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state relative-caret-position="418">
+              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerRoute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ProducerRoute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="34" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="method#configure#0;class#ProducerRoute#0" expanded="true" />
+                <element signature="method#buildPubSubRoute#0;class#ProducerRoute#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerRoute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ConsumerRoute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="method#configure#0;class#ConsumerRoute#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +84,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#AppTest#0" expanded="false" />
+                <element signature="docComment;method#AppTest#0;class#AppTest#0" expanded="false" />
+                <element signature="e#340#341#0" expanded="false" />
+                <element signature="e#373#374#0" expanded="false" />
+                <element signature="docComment;method#suite#0;class#AppTest#0" expanded="false" />
+                <element signature="e#474#475#0" expanded="false" />
+                <element signature="e#527#528#0" expanded="false" />
+                <element signature="docComment;method#testApp#0;class#AppTest#0" expanded="false" />
+                <element signature="e#602#603#0" expanded="false" />
+                <element signature="e#636#637#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,19 +114,19 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            <state relative-caret-position="117">
+              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="228">
-                <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+              <first_editor relative-caret-position="551">
+                <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -105,12 +157,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ProducerRoute.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ConsumerRoute.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" />
       </list>
     </option>
   </component>
@@ -128,9 +182,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="44" />
-    <option name="width" value="2216" />
+    <option name="y" value="45" />
+    <option name="width" value="1126" />
     <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -215,6 +268,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forge-camel-only-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forge-camel-only-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype-resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forge-camel-only-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forge-camel-only-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype-resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -235,6 +356,11 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -671,15 +797,15 @@
       <workItem from="1485364204378" duration="175000" />
       <workItem from="1485364385807" duration="1398000" />
       <workItem from="1485372768982" duration="119000" />
-      <workItem from="1485375190697" duration="145000" />
+      <workItem from="1485375190697" duration="1591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4221000" />
+    <option name="totallyTimeSpent" value="5667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="44" width="2216" height="950" extended-state="0" />
+    <frame x="0" y="45" width="1126" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -696,7 +822,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32400933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17341307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22601476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -743,7 +869,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#AppTest#0" expanded="false" />
+            <element signature="docComment;method#AppTest#0;class#AppTest#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="docComment;method#suite#0;class#AppTest#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="docComment;method#testApp#0;class#AppTest#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -791,7 +929,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#AppTest#0" expanded="false" />
+            <element signature="docComment;method#AppTest#0;class#AppTest#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="docComment;method#suite#0;class#AppTest#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="docComment;method#testApp#0;class#AppTest#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -863,7 +1013,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#AppTest#0" expanded="false" />
+            <element signature="docComment;method#AppTest#0;class#AppTest#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="docComment;method#suite#0;class#AppTest#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="docComment;method#testApp#0;class#AppTest#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -883,19 +1045,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#AppTest#0" expanded="false" />
+            <element signature="docComment;method#AppTest#0;class#AppTest#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="docComment;method#suite#0;class#AppTest#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="docComment;method#testApp#0;class#AppTest#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -915,22 +1081,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="551">
+            <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        <state relative-caret-position="117">
+          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="228">
-            <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ProducerRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="method#configure#0;class#ProducerRoute#0" expanded="true" />
+            <element signature="method#buildPubSubRoute#0;class#ProducerRoute#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ConsumerRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="method#configure#0;class#ConsumerRoute#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
