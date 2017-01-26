@@ -3,6 +3,8 @@
     <sources>
         <source>src/main/java/App.java</source>
         <source>src/main/java/ExampleRouteBuilder.java</source>
+        <source>src/main/java/ExampleController.java</source>
+        <source>src/main/java/ExampleProducer.java</source>
     </sources>
     <resources>
         <resource>src/main/resources/log4j2.properties</resource>

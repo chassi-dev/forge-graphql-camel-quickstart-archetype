@@ -1,24 +1,15 @@
 package ${package};
 
-import org.apache.camel.main.Main;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Hello world!
- *
- */
+@SpringBootApplication
 public class App{
+
     public static void main(String... args) throws Exception {
-
-        System.out.println("************************************");
-        System.out.println("* Press ctrl+c to stop the example *");
-        System.out.println("************************************");
-
-        Main main = new Main();
-
-        main.addRouteBuilder(new ExampleRouteBuilder(false));
-
-        main.run();
-
-
+        SpringApplication.run(${package}.App.class, args);
     }
+
+
+
 }
