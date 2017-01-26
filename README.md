@@ -1,10 +1,9 @@
-# Forge Camel-Only Quickstart Archetype
-Used to rapidly create a maven based project that solely relies on Apache Camel. This archetype is opinionated such that it behaves solely as a producer and a consumer. 
+# Forge Spring Boot - Camel Quickstart Archetype
+Used to rapidly create a maven based project that relies on Spring Boot and Apache Camel. 
 
 ## What it comes with
-This archetype provides a simple example of Apache Camel in action. The default behavior is to provide a producing endpoint and a consuming endpoint example. Once installed, you can simply run `mvn camel:run` to see it working.
 
-If you so choose, and have activemq integrated with fabric8, you can change the constructor argument for `ExampleRouteBuilder` in `App.java` to `true`, and this will run the application using the `camel-amq` endpoint adapter. Once deployed, the application will talk to itself using the 3rd party queue in the same manner as if it was running locally.
+
  
 ## Installing
 
@@ -13,7 +12,7 @@ At the moment, we suggest installing to your local maven repository. This is to 
 
 Download
 
-	git clone https://github.com/saas-forge/forge-camel-only-quickstart-archetype.git
+	git clone https://github.com/saas-forge/forge-springboot-camel-quickstart-archetype.git
 	
 Install
 

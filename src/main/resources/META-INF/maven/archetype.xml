@@ -1,5 +1,5 @@
 <archetype>
-    <id>forge-camel-only-quickstart</id>
+    <id>forge-springboot-camel-quickstart</id>
     <sources>
         <source>src/main/java/App.java</source>
         <source>src/main/java/ExampleRouteBuilder.java</source>
