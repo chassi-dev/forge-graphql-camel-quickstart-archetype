@@ -1,9 +1,16 @@
 # Forge Spring Boot - Camel Quickstart Archetype
-Used to rapidly create a maven based project that relies on Spring Boot and Apache Camel. 
+Used to rapidly create a maven based project that provides a RESTful Spring Boot and Apache Camel architecture. 
 
 ## What it comes with
+* A home (`/`) route at [localhost](http://localhost:8080)
+* An example producer class that is called by the home route and sends a message onto Camel.
+* A Camel producer route, logging its message and sending to a mock endpoint. 
+	* Alternatively, if you are integrated with fabric8 you may opt to change the behavior of the Camel route to send to an `amq:example` endpoint.
 
-
+## Running
+After installation and project creation, this application is ready to run, simply type:
+	
+	mvn spring-boot:run
  
 ## Installing
 
