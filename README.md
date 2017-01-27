@@ -1,17 +1,30 @@
-# Forge Spring Boot - Camel Quickstart Archetype
-Used to rapidly create a maven based project that provides a RESTful Spring Boot and Apache Camel architecture. 
+# Forge GraphQL - Camel Quickstart Archetype
+Used to rapidly create a maven based project that provides a GraphQL endpoint via Spring Boot, and Apache Camel architecture. 
 
 ## What it comes with
-* A home (`/`) route at [localhost](http://localhost:8080)
-* An example producer class that is called by the home route and sends a message onto Camel.
-* A Camel producer route, logging its message and sending to a mock endpoint. 
-	* Alternatively, if you are integrated with fabric8 you may opt to change the behavior of the Camel route to send to an `amq:example` endpoint.
+* A home (`/qraphql`) route at [localhost](http://localhost:8080/qraphql)
+* An example schema with attributes `id`, and `text` for querying.
+
 
 ## Running
 After installation and project creation, this application is ready to run, simply type:
 	
 	mvn spring-boot:run
+	
+Note that Camel is started, but not used.
  
+## Querying GraphQL
+Two types of queries are available, `findOne`, and `find`. Both are very basic.
+
+### findOne
+	
+	http://localhost:8080/graphql?query={example(id:14){id,text}}
+	
+### find
+
+	http://localhost:8080/graphql?query={examples{id,text}}
+	
+	
 ## Installing
 
 At the moment, we suggest installing to your local maven repository. This is to help reduce the clutter from accessing a remote one and its overwhelming number of archetype options. 
@@ -19,7 +32,7 @@ At the moment, we suggest installing to your local maven repository. This is to 
 
 Download
 
-	git clone https://github.com/saas-forge/forge-springboot-camel-quickstart-archetype.git
+	git clone https://github.com/saas-forge/forge-graphql-camel-quickstart-archetype.git
 	
 Install
 

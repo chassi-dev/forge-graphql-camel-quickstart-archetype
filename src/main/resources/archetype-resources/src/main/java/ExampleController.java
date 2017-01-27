@@ -1,21 +1,19 @@
 package ${package};
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
+import graphql.ExecutionResult;
+import graphql.GraphQL;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
 
 @RestController
 public class ExampleController {
 
 	@RequestMapping(value = "/graphql", method = RequestMethod.GET)
-	public void graphQLQuery(@RequestParam("query") String query) {
-//		Graphql executed = new GraphQL(Query.querySchema).execute(query)
-//						["data": executed.data, "errors": executed.errors] as Map
+	public Object graphQLQuery(@RequestParam("query") String query) {
+		ExecutionResult result = new GraphQL(com.example.Query.querySchema).execute(query);
+		List errors = result.getErrors();
+		if(errors.size() > 0) return errors;
+		return result.getData();
 	}
 
-	@RequestMapping(value = "/graphql")
-	public void graphQLMutation(@RequestBody String body){
-//		def executed = new GraphQL(Query.querySchema).execute(body)
-//						["data": executed.data, "errors": executed.errors] as Map
-	}
 }

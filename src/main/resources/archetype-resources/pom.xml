@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>${groupId}</groupId>
-    <artifactId>${artifactId}</artifactId>
-    <version>${version}</version>
+    <groupId>com.example</groupId>
+    <artifactId>test</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
 
@@ -80,6 +80,13 @@
 
     <dependencies>
 
+        <!-- GraphQL -->
+        <dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphql-java</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
         <!-- SpringBoot -->
         <dependency>
             <groupId>org.apache.camel</groupId>
@@ -93,12 +100,6 @@
             <version>${spring-boot.version}</version>
         </dependency>
 
-        <!-- CAMEL -->
-        <!--<dependency>-->
-        <!--<groupId>org.apache.camel</groupId>-->
-        <!--<artifactId>camel-core</artifactId>-->
-        <!--<version>${camel.version}</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>io.fabric8.ipaas.mq</groupId>
             <artifactId>camel-amq</artifactId>
@@ -157,22 +158,6 @@
         </dependency>
 
 
-        <!-- Logging -->
-        <!--<dependency>-->
-        <!--<groupId>org.apache.logging.log4j</groupId>-->
-        <!--<artifactId>log4j-api</artifactId>-->
-        <!--<version>${log4j.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>org.apache.logging.log4j</groupId>-->
-        <!--<artifactId>log4j-core</artifactId>-->
-        <!--<version>${log4j.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>org.apache.logging.log4j</groupId>-->
-        <!--<artifactId>log4j-slf4j-impl</artifactId>-->
-        <!--<version>${log4j.version}</version>-->
-        <!--</dependency>-->
     </dependencies>
 
     <!-- Javadoc support -->
@@ -222,7 +207,7 @@
                 <artifactId>camel-maven-plugin</artifactId>
                 <version>${camel.version}</version>
                 <configuration>
-                    <mainClass>com.exampole.App</mainClass>
+                    <mainClass>${package}.App</mainClass>
                 </configuration>
             </plugin>
 
