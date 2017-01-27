@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="667cbeec-671a-4fdf-adac-58b8b1ed04af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/Query.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ExampleProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ExampleRouteBuilder.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ExampleController.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/ExampleController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,8 +101,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-959">
-                <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <first_editor relative-caret-position="95">
+                <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -839,12 +832,12 @@
       <workItem from="1485375190697" duration="4637000" />
       <workItem from="1485447733968" duration="5605000" />
       <workItem from="1485478700341" duration="3000" />
-      <workItem from="1485532438592" duration="2333000" />
+      <workItem from="1485532438592" duration="2494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16654000" />
+    <option name="totallyTimeSpent" value="16815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="35" width="1925" height="890" extended-state="0" />
@@ -1362,8 +1355,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-959">
-            <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <first_editor relative-caret-position="95">
+            <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />

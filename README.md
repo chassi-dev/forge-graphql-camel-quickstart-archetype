@@ -2,7 +2,7 @@
 Used to rapidly create a maven based project that provides a GraphQL endpoint via Spring Boot, and Apache Camel architecture. 
 
 ## What it comes with
-* A home (`/qraphql`) route at [localhost](http://localhost:8080/qraphql)
+* A graphql (`/qraphql`) route at [localhost](http://localhost:8080/qraphql)
 * An example schema with attributes `id`, and `text` for querying.
 
 
