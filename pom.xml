@@ -3,8 +3,8 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.saasforge</groupId>
-    <artifactId>forge-springboot-camel-quickstart</artifactId>
+    <artifactId>forge-graphql-camel-quickstart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Archetype - forge-springboot-camel-quickstart</name>
+    <name>Archetype - forge-graphql-camel-quickstartt</name>
 
 </project>
